@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading{
+    background-color: yellow;
+    width: 100%;
+    height: 70px;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+.title{
+    margin-top: 15px;
+}
+.btn-div{
+    margin-top: 20px;
+    margin-left: 77rem;
+    float: right;
+}
+#add{
+    background-color: yellow;
+    border: none;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+}
+#add:hover{
+    background-color: white;
+    color: yellow;
+}
+.button-text{
+    font-size: large;
+    font-weight: bold;
+}
+.textareaOpr{
+    margin-top: 100px;
+    margin-left: 30px;
+    background-color: white;
+    width: 300px;
+    /* display: flex; */
+    /* height: 50px; */
+}
+.operation{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.edit{
+    background-color: green;
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.edit:hover{
+    background-color: white;
+    color: green;
+}
+.delete{
+    background-color: red;
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.delete:hover{
+    background-color: white;
+    color: red;
+}
+input{
+    float: left;
+    margin-right: 45px;
+    margin-top: 5px;
+    border: none;
+    /* width: 10px; */
+}
+textarea{
+    border: none;
+    border-radius: none;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.main{
+    width: 340px;
+    height: 131px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.hidden{
+    display: none;   
+}
