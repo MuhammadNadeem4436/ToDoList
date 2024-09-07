@@ -29,7 +29,7 @@ const addNewNote = (text = '') => {
             <button class="delete"><i class="fas fa-trash-alt"></i></button>
         </div><br>
         <div class="main ${text ? "" : "hidden"} "></div>
-        <textarea class="${text ? "hidden" : ""}" cols="36" rows="10"></textarea>
+        <textarea class="${text ? "hidden" : ""}" cols="34" rows="9"></textarea>
     </div>
     `
 
